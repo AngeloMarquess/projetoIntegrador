@@ -8,9 +8,9 @@ const servicosController = require('../controllers/servicoController');
 
 
 /* GET home page. */
-router.get('/',acaiController.index );
+//router.get('/',acaiController.index );
 
-router.get('/acai', acaiController.index);
+//router.get('/acai', acaiController.index);
 
 router.get('/',institucionalController.index);
 router.get('/sobre',institucionalController.sobre);
