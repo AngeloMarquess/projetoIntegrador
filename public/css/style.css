@@ -267,5 +267,5 @@ section.contato p {
 }
 
 .bg-primary {
-    background-color: #5d0545;
+    background-color: #5d0545 !important;
 }
