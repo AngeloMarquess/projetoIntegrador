@@ -265,3 +265,7 @@ section.contato a:any-link,
 section.contato p {
     color: #575757;
 }
+
+.bg-primary {
+    background-color: #5d0545;
+}
