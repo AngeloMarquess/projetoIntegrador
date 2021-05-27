@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;800&display=swap');
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color:#7D0C4A;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: white;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+.wf-align-middle{
+  margin-top: 3%;
+}
+
+.wf-align-middle-pedido{
+  background-color: #F2CB2F;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+  padding: 10px;
+  position: relative;
+  margin: 29px;
+  top: 1px;
+  right: 23px;
+}
+ main{
+  position: relative;
+
+  bottom: 300px;
+ }
+main h1{
+  position: relative;
+  padding: 10px;
+  margin: 50px;
+  left: 231px;
+  top: 509px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  color: #F2CB2F;
+}
+
+main h4{
+  left: 301px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  top: 432px;
+  color: white;
+}
+
+main img{
+  max-width: 100%;
+}
