@@ -275,6 +275,11 @@ section.contato p {
     padding-bottom: 1rem !important;
 }
 
+.py-0-25 {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
 .text-white {
     color: #fff !important;
 }
@@ -285,6 +290,11 @@ section.contato p {
 
 .mb-0 {
     margin-bottom: 0 !important;
+}
+
+.mx-0-25 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
 }
 
 .col-lg-footer {
@@ -307,4 +317,4 @@ section.contato p {
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, 0.03);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  }
+}
